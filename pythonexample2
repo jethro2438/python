@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+
+Brand = ["Accent", "Elantra", "Ioniq",
+        "Kona", "Nexo", "Palisade", "Santa Fe"]
+Price = [16250, 20105, 24155, 21420, 59855, 32895, 27245]
+
+plt.xlabel("Car Models")
+plt.ylabel("USD Price")
+plt.title("Vehicle Costs")
+plt.plot(Brand, Price)
+plt.grid()
+plt.show()
